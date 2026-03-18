@@ -85,6 +85,32 @@ DisplayLink + node-heavy workloads on Intel hardware.
 
 ## Real-World Applications
 
+### Jamf App Inventory
+
+Built a full-stack web application filling a gap in Jamf Pro's native UI — a centralized view of all software installed across a managed macOS fleet.
+
+- Next.js 14 (App Router) + TypeScript + Tailwind + shadcn/ui
+- App catalog with version conflict detection and fleet-wide install counts
+- App detail view with version distribution charts and per-device drill-down
+- Device list with macOS version names (Sequoia, Tahoe, etc.)
+- Secure API proxy architecture — Jamf credentials never touch the browser
+- Mock data mode with real API swap via `USE_MOCK_DATA` env var
+- Styled to match Jamf Pro's visual language
+
+**Repo:** [judeglenn/jamf-app-inventory](https://github.com/judeglenn/jamf-app-inventory)
+
+### Chip Mission Control
+
+Native macOS menubar app for monitoring the OpenClaw gateway and launching active projects.
+
+- SwiftUI + AppKit (NSStatusItem) — no dock icon, lives in menu bar
+- Live gateway health indicator (green/red) with PID display and restart button
+- Cron job viewer with next-run times
+- Active Projects section with one-click launch shortcuts
+- Auto-refreshes every 30 seconds
+
+**Repo:** [judeglenn/chip-mission-control](https://github.com/judeglenn/chip-mission-control)
+
 ### Nonprofit Grant Operations
 
 Deployed the agent for grant operations work on behalf of a volunteer-led

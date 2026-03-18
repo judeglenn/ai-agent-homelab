@@ -39,3 +39,26 @@ All notable changes and milestones for this project are documented here.
 ### Repository
 - Created `judeglenn/ai-agent-homelab` on GitHub
 - Published README with full architecture overview, stack, and notable contributions
+
+---
+
+## [2026-03-17] — Projects, Integrations & Stability
+
+### New Projects Built
+- **[Jamf App Inventory](https://github.com/judeglenn/jamf-app-inventory)** — Next.js 14 + TypeScript + Tailwind dashboard for centralized macOS fleet software inventory. Features app catalog, version conflict detection, device drill-down, Jamf Pro API-ready architecture with mock data mode. Styled to match Jamf Pro aesthetic.
+- **[Chip Mission Control](https://github.com/judeglenn/chip-mission-control)** — Native macOS SwiftUI menubar app for monitoring OpenClaw gateway health, cron jobs, active projects, and quick-launch shortcuts. No dock icon, auto-refreshes every 30s.
+
+### Infrastructure Improvements
+- **Gateway LaunchAgent** — Installed as macOS LaunchAgent with `KeepAlive=true` and `RunAtLoad=true`. Auto-restarts on crash, survives reboots.
+- **Gateway port** — Changed from default 18789 to randomized 62314 for security
+- **OpenAI fallback fix** — Corrected `baseUrl` to include `/v1` path, resolving 404 errors during Anthropic rate limit fallback
+
+### New Integrations
+- **Google Drive + Docs API** — Full OAuth2 integration via `gogcli`. Can read, write, find/replace, and append to live Google Docs
+- **QM Grant Strategy doc** — Live shared Google Doc with Queer Mountaineers leadership team, updated automatically
+- **Weekly grant scanner** — Monday 9am cron job searches for new grant opportunities and appends to shared doc
+
+### Queer Mountaineers Grant Work
+- Built comprehensive grant prospect database with deadlines and application angles
+- Identified Social Justice Fund NW (May 7 deadline) as most urgent opportunity
+- Submitted Jamf Pro trial application for jamf-app-inventory testing
