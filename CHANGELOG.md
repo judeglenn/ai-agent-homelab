@@ -62,3 +62,17 @@ All notable changes and milestones for this project are documented here.
 - Built comprehensive grant prospect database with deadlines and application angles
 - Identified Social Justice Fund NW (May 7 deadline) as most urgent opportunity
 - Submitted Jamf Pro trial application for jamf-app-inventory testing
+
+---
+
+## [2026-03-18] — OrchardPatch Founded
+
+### New Venture: OrchardPatch (orchardpatch.com)
+- Identified market gap: no clean MDM-agnostic fleet app visibility + patch tool that works alongside Jamf without conflicts
+- Researched competitive landscape: 76,500+ Jamf customers, $70M–$300M SAM, 18–24 month window before Jamf builds it themselves
+- Named the product: OrchardPatch (an orchard = a managed collection of Apple trees)
+- Registered orchardpatch.com
+- Built full waitlist landing page (Next.js + Tailwind) in an afternoon
+- Generated logo using Nano Banana Pro (Gemini image generation)
+- Deployed live to Vercel with custom domain: https://orchardpatch.com
+- Core positioning: visibility-first fleet management layer that works alongside any MDM
