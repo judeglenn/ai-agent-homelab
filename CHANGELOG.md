@@ -45,7 +45,7 @@ All notable changes and milestones for this project are documented here.
 ## [2026-03-17] — Projects, Integrations & Stability
 
 ### New Projects Built
-- **[Jamf App Inventory](https://github.com/judeglenn/jamf-app-inventory)** — Next.js 14 + TypeScript + Tailwind dashboard for centralized macOS fleet software inventory. Features app catalog, version conflict detection, device drill-down, Jamf Pro API-ready architecture with mock data mode. Styled to match Jamf Pro aesthetic.
+- **[Jamf App Inventory](https://github.com/judeglenn/orchardpatch)** — Next.js 14 + TypeScript + Tailwind dashboard for centralized macOS fleet software inventory. Features app catalog, version conflict detection, device drill-down, Jamf Pro API-ready architecture with mock data mode. Styled to match Jamf Pro aesthetic.
 - **[Chip Mission Control](https://github.com/judeglenn/chip-mission-control)** — Native macOS SwiftUI menubar app for monitoring OpenClaw gateway health, cron jobs, active projects, and quick-launch shortcuts. No dock icon, auto-refreshes every 30s.
 
 ### Infrastructure Improvements

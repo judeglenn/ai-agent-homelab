@@ -85,7 +85,7 @@ DisplayLink + node-heavy workloads on Intel hardware.
 
 ## Real-World Applications
 
-### Jamf App Inventory
+### OrchardPatch
 
 Built a full-stack web application filling a gap in Jamf Pro's native UI — a centralized view of all software installed across a managed macOS fleet.
 
@@ -97,7 +97,7 @@ Built a full-stack web application filling a gap in Jamf Pro's native UI — a c
 - Mock data mode with real API swap via `USE_MOCK_DATA` env var
 - Styled to match Jamf Pro's visual language
 
-**Repo:** [judeglenn/jamf-app-inventory](https://github.com/judeglenn/jamf-app-inventory)
+**Repo:** [judeglenn/orchardpatch](https://github.com/judeglenn/orchardpatch)
 
 ### Chip Mission Control
 
